@@ -3,5 +3,6 @@
 .coverage
 !examples/logs/errors.log
 !examples/logs/logging_de.log
+!examples/tests/coverage.json
 __pycache__/
 .pytest_cache/

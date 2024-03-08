@@ -1,52 +1,50 @@
-# Домашняя работа №5
+# Logging and Testing
 
 ---
 
-## Author's comment
+This project consists of two parts: 1) **Logging** and 2) **Testing**. Both parts
+work with the _differential evolution_ optimization method, which is implemented in the file
+[differential_evolution.py](./differential_evolution.py).
 
-Привет!
+## Logging
 
-В разделе [examples/logs](./examples/logs) можно увидеть **примеры логов**
-по итогу работы программы и создания файлов для них:
-* [errors.log](./examples/logs/errors.log) — логи 4 и 5 уровней
-логирования (`ERROR`, `CRITICAL`)
-* [logging_de.log](./examples/logs/logging_de.log) — логи 1, 2, 3 уровней
-  (`DEBUG`, `INFO` и `WARNING`)
+In this part you can see examples of my custom Python loggers implementation
+using the built-in `logging` library. You can see the code with their implementation 
+in the [logging_de.py](./logging_de.py) file.
 
-Также я дополнительно добавил в логи `id` запусков алгоритма DE, чтобы 
-потенциальным читателям было удобнее фильтровать нужные для 
-себя логи (особенно в [logging_de.log](./examples/logs/logging_de.log)).
+Under [examples/logs](./examples/logs) you can see **examples of logs**
+on the results of the program's work and creating files for them:
+* [errors.log](./examples/logs/errors.log) — logs of the 4th and 5th levels of
+logging (`ERROR` (if the result of the algorithm is greater than 1e-3), `CRITICAL`
+(if the result is greater than 1e-1))
+* [logging_de.log](./examples/logs/logging_de.log) — logs of levels 1, 2, 3
+  (`DEBUG`, `INFO` and `WARNING`)
 
-## Задание 1 (50 баллов)
+The loggers log each run and logical step of the algorithm, and are divided 
+into two parts, which can be seen in the examples above. 
+A different formatter has also been created for each logger.
 
-1. Используя код из differential_evolution.py, напишите собственный логгер, который будет логировать каждый запуск и каждый логический этап работы алгоритма
-2. Ваш логгер должен сохранять логи с 1, 2, 3 уровнями логирования в файл logging_de.log
-3. Если результат отработки алгоритма больше 1e-3, то логируем результат с уровнем ERROR. Если результат больше 1e-1, то CRITICAL. 
-    Также лог должен в себе отражать параметры алгоритма, такие как начальная популяция, размер популяции, количество итераций и тд.
-4. ERROR и CRITICAL должны сохранятся в файл errors.log
-5. Напишите свой форматтер, который будет отражать:
-   
-    a. Время логирования в формате datetime
-   
-    б. Имя логгера
-   
-    в. Уровень логирования
-   
-    г. Действие, которое было выполнено
+Also in the logs there is `id` of the runs of the algorithm differential evolution 
+(end-to-end between both loggers) to make it easier for potential readers to 
+filter the logs they need.
 
-ВАЖНО!
-Весь код требуется писать в данном файле (logging_de.py), не трогая исходный differential_evolution.py
+## Testing
 
-## Задание 2 (50 баллов)
+In this section the problem of achieving **100% coverage of tests** of the 
+differential evolution optimization method using the `pytest` library was solved.
 
-Ваша задача добиться 100% покрытия тестами DifferentialEvolution (что такое покрытие тестами: https://www.atlassian.com/ru/continuous-delivery/software-testing/code-coverage)
+You can read more about test coverage here: https://www.atlassian.com/ru/continuous-delivery/software-testing/code-coverage.
 
-Различные этапы тестирования логики разделяйте на различные функции (тесты пишутся в файл test_de.py)
+The tests are described in the file `test_de.py`. 
+The different steps of logic testing have been divided into different functions.
 
-Запуск команды тестирования:
-
+The tests can be run with the following script:
+```bash
 pytest -s test_de.py --cov-report=json --cov
+```
 
-Удачи!
+and the result will be saved to the `coverage.json` file.
+Its example can be seen in the file [examples/tests/coverage.json](./examples/tests/coverage.json)
 
-P.S. Не забываем добавлять .gitignore, иначе минус 2 балла.
+A separate test in [test_coverage.py](./test_coverage.py) file 
+checks if the coverage of tests is equal to 100%.

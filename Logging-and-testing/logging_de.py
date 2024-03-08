@@ -2,24 +2,6 @@ import logging
 import copy
 import numpy as np
 
-"""
-The task:
-
-1. Using the code from `differential_evolution.py`, write your own logger that logs every run and every logical step of the algorithm's operation
-2. Your logger should save logs with 1, 2, 3 logging levels to the file `logging_de.log`
-3. If the result of the algorithm is greater than 1e-3, log the result with the ERROR level. If the result is greater than 1e-1, then CRITICAL. 
-    Also, the log should reflect the algorithm parameters such as initial population, population size, number of iterations, etc.
-4. ERROR and CRITICAL should be saved to the errors.log file.
-5. Write your formatter to reflect: 
-    a. Logging time in datetime format
-    b. The name of the logger
-    c. Logging level
-    d. The action that was performed
-
-IMPORTANT! 
-All code should be written in this file, without touching the original `differential_evolution.py` file
-"""
-
 
 # define two loggers: one for levels 1-3 and one for levels 4-5
 logger_low_lev = logging.getLogger("low_level_log")
