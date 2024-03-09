@@ -26,6 +26,6 @@ def task_8(orders, items, sellers, customers):
     # count the proportion of orders with different states of shipper and customer
     res = data_needed.drop_duplicates('order_id').groupby('seller_id').agg({"is_other_state": "mean"}).reset_index()
     res = res.rename({'is_other_state': 'share'}, axis=1).sort_values('share', ascending=False)
-    res = res.iloc[:10].reset_index()
+    res = res.iloc[:10].reset_index(drop=True)
 
     return res
