@@ -16,7 +16,10 @@ This section contains large-scale projects on **data collection** and
   * analyzing order and payment data with `pandas`
   * visualization with `matplotlib` and `seaborn` to provide business insights and 
     make data-driven business decisions
-* **[Pymongo-non-relational-db](./Pymongo-non-relational-db)**: с
+* **[Pymongo-non-relational-db](./Pymongo-non-relational-db)**: an example of working 
+  with _non-relational databases_ using `pymongo`. Analyzing different data 
+  domains (student grade data, social media posts, a service for rating restaurants, 
+  and banking data on financial transactions) with direct database queries
 * **[Restaurant-analysis](./Restaurant-analysis)**: _parsing_ of the cartographic service
   website https://2gis.it/ 
   * gathering information about all branches of a café or 
