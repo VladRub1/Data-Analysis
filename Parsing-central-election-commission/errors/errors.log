@@ -1,0 +1,12 @@
+2024-03-15 00:23:17,128 high_level_log ERROR Didn't get the data about the 2004 election results in the region at the link: 
+http://www.vybory.izbirkom.ru/region/izbirkom?action=show&root=1&tvd=1001000883011&vrn=1001000882950&prver=0&pronetvd=null&region=52&sub_region=52&type=0&report_mode=null
+2024-03-15 00:23:52,422 high_level_log ERROR Didn't get the data about the 2004 election results in the region at the link: 
+http://www.vybory.izbirkom.ru/region/izbirkom?action=show&root=1&tvd=1001000882973&vrn=1001000882950&prver=0&pronetvd=null&region=77&sub_region=77&type=0&report_mode=null
+2024-03-15 00:31:45,103 high_level_log ERROR Didn't get the data about the 2004 election results in the region at the link: 
+http://www.vybory.izbirkom.ru/region/izbirkom?action=show&root=1&tvd=1001000882979&vrn=1001000882950&prver=0&pronetvd=null&region=76&sub_region=76&type=0&report_mode=null
+2024-03-15 00:33:44,065 high_level_log ERROR Didn't get the data about the 2004 election results in the region at the link: 
+http://www.vybory.izbirkom.ru/region/izbirkom?action=show&root=1&tvd=1001000883008&vrn=1001000882950&prver=0&pronetvd=null&region=46&sub_region=46&type=0&report_mode=null
+2024-03-15 00:41:50,293 high_level_log ERROR Didn't get the data about the 2004 election results in the region at the link: 
+http://www.vybory.izbirkom.ru/region/izbirkom?action=show&root=1&tvd=1001000883235&vrn=1001000882950&prver=0&pronetvd=null&region=61&sub_region=61&type=0&report_mode=null
+2024-03-15 00:56:59,935 high_level_log ERROR Didn't get the data about the 2004 election results in the region at the link: 
+http://www.vybory.izbirkom.ru/region/izbirkom?action=show&root=1&tvd=1001000883232&vrn=1001000882950&prver=0&pronetvd=null&region=51&sub_region=51&type=0&report_mode=null
