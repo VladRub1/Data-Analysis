@@ -1,13 +1,19 @@
-# Advanced Python HW-6
+# PyMongo — non-relational database
 
-Привет!
+---
 
-В этом репозитории в файле [Python_2_HW_6.ipynb](./Python_2_HW_6.ipynb) находится решение HW-6 по курсу Advanced Python.
+This project is about working with **non-relational databases** based 
+on the `PyMongo` framework.
 
-#### Комментарий для проверяющего
-В 5 задании в последнем пункте ("добавить сумму всех пополнений и трат по транзакциям") я дополнительно добавил разбивку по числу исходящих/входящих транзакций.
-Еще я не до конца понял, что в этом пункте имелось в виду во фразе: "... выведите по каждому `customer_id` (выведите также username аккаунта)..." под `customer_id`. 
-Если дефолтный `_id` от pymongo, то я намеренно скрыл его в выдаче, чтобы он не занимал место и добавил `username` и `name` каждого пользователя. Мне кажется, что 
-так нагляднее.
+Here you can see **data analytics** for different data domains:
+* student grades,
+* posts in social networks,
+* restaurant rating service,
+* bank data on financial transactions
 
-**Автор**: Владислав Рубанов
+using direct _database queries_, as well as _writing_ to a non-relational 
+database the results of executing other queries.
+
+Project content:
+* [Python_pymongo_non_relational_project.ipynb](./Python_pymongo_non_relational_project.ipynb):
+  file with connection to the database, execution of queries, and analysis of their results

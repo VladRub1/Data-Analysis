@@ -24,7 +24,7 @@ It consists of different tasks that arise in data analyst tasks:
     of payment for orders, delivery time and its dependence on various factors.
   * **[Data](./Data)**: here you can download the order data used in the project 
     (as a single archive or all 9 tables individually). Below you can see the 
-    relationships between the data (the file product_category_name_translation is 
+    relationships between the data (the file `product_category_name_translation.csv` is 
     a translation of the category names from Portuguese to English).
 
     <img src="https://i.imgur.com/HRhd2Y0.png" alt="drawing" width="650" />
