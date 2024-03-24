@@ -16,6 +16,8 @@ This section contains large-scale projects on **data collection** and
   * analyzing order and payment data with `pandas`
   * visualization with `matplotlib` and `seaborn` to provide business insights and 
     make data-driven business decisions
+* **[Parsing-central-election-commission](./Parsing-central-election-commission)**: 
+  parsing of Central election commission in Russia
 * **[Pymongo-non-relational-db](./Pymongo-non-relational-db)**: an example of working 
   with _non-relational databases_ using `pymongo`. Analyzing different data 
   domains (student grade data, social media posts, a service for rating restaurants, 
