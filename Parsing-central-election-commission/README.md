@@ -55,10 +55,16 @@ it is necessary to select a set of parameters of the elections of interest in th
 Here and further I will use `Selenium` to interact with the site.
 
 Therefore, at the beginning I need to open the section with filters:
-<img src="https://www.dropbox.com/scl/fi/luyuzr9ys1fevfe59bv2v/1.png?rlkey=5myr49fhmzl19kxapvsptdru6&dl=1" align="center" width="80%" style="margin-left: 20px; margin-bottom: 5px; margin-top: 5px; margin-right: 10px; clear: right">
+
+<img src="https://www.dropbox.com/scl/fi/luyuzr9ys1fevfe59bv2v/1.png?rlkey=5myr49fhmzl19kxapvsptdru6&dl=1" alt="drawing" width="80%" />
+
+<img src="https://i.imgur.com/HRhd2Y0.png" alt="drawing" width="650" />
+
+<img src="https://www.dropbox.com/scl/fi/4cfenj6hd03llhnesccuy/3.png?rlkey=spbx8qq8s5fg3lrsaiw9pww9g&dl=1" alt="drawing" align="center" width="60%" style="margin-left: 20px; margin-bottom: 5px; margin-top: 5px; margin-right: 10px; clear: right" />
+
 
 A large number of filters about the election will open up for me:
-<img src="https://www.dropbox.com/scl/fi/pgwcmmjpx0wtc3j1zd8o6/2.png?rlkey=7xh5r5mr3zsxs44vnru1h9z6d&dl=1" align="center" width="80%" style="margin-left: 20px; margin-bottom: 5px; margin-top: 5px; margin-right: 10px; clear: right">
+<img src="https://www.dropbox.com/scl/fi/pgwcmmjpx0wtc3j1zd8o6/2.png?rlkey=7xh5r5mr3zsxs44vnru1h9z6d&dl=1" alt="drawing" align="center" width="80%" style="margin-left: 20px; margin-bottom: 5px; margin-top: 5px; margin-right: 10px; clear: right">
 
 Next, I will need to fill in information about the election of interest 
 (twice: separately for the amendment election and separately for the presidential election), namely:
