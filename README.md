@@ -16,6 +16,12 @@ This section contains large-scale projects on **data collection** and
   * analyzing order and payment data with `pandas`
   * visualization with `matplotlib` and `seaborn` to provide business insights and 
     make data-driven business decisions
+* **[Parsing-agro-charter](./Parsing-agro-charter)**: parsing of the 
+  [website](https://хартия-апк.радо.рус/) of member companies of the Agro-Industrial 
+  Complex (AIC) Charter, which unites companies operating in the agro-industry in Russia 
+  and advocates fair competition in the entire agricultural market and the formation of 
+  intolerant attitude towards companies violating the tax legislation of the Russian 
+  Federation. As of April 2024, the Charter includes 9,366 legal entities.
 * **[Parsing-central-election-commission](./Parsing-central-election-commission)**: 
   parsing of the Central election commission in Russia 
   [website](http://www.vybory.izbirkom.ru/region/izbirkom) to collect the 
