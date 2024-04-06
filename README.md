@@ -17,7 +17,13 @@ This section contains large-scale projects on **data collection** and
   * visualization with `matplotlib` and `seaborn` to provide business insights and 
     make data-driven business decisions
 * **[Parsing-central-election-commission](./Parsing-central-election-commission)**: 
-  parsing of Central election commission in Russia
+  parsing of the Central election commission in Russia 
+  [website](http://www.vybory.izbirkom.ru/region/izbirkom) to collect the 
+  results of the largest federal elections in Russia for 2004–2020 and related 
+  information (turnout, number of spoiled ballots, etc.). 
+  The source has serious protection against automatic data collection, so to  
+  bypass it a combination of `Selenium`, `BeautifulSoup` and `lxml` libraries is 
+  used as a technical solution for the project.
 * **[Pymongo-non-relational-db](./Pymongo-non-relational-db)**: an example of working 
   with _non-relational databases_ using `pymongo`. Analyzing different data 
   domains (student grade data, social media posts, a service for rating restaurants, 
